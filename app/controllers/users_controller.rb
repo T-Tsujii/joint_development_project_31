@@ -1,4 +1,9 @@
 class UsersController < ApplicationController
+  # indexアクション
+  def index
+    @users = User.all
+  end
+
   # newアクション
   def new
     @user = User.new
