@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   resources :messages
   # ルーティング定義
   resources :users
+
+  resources :tasks
 end
